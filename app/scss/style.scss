@@ -1,0 +1,197 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+
+
+// h1 {
+//   color: green;
+// }
+h2 {
+  font-family: 'Marck Script', cursive;
+}
+.big {
+  font-size: 80px;
+  line-height: normal;
+  color: #fff;
+  text-shadow: 2px 1px #fff;
+  -webkit-text-stroke: 1px #000000;
+}
+
+
+.header {
+  font-size: 25px;
+  padding-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/main-bg.png) no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+
+.nav {
+  // margin-top: 50px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.menu {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 1px solid blue;
+}
+.menu li {
+  flex: 1;
+  text-align: center;
+  border: 1px solid green;
+}
+.logo {
+  padding: 0px 35px;
+  min-width: 222px;
+  position: relative;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 131.34%;
+  text-transform: uppercase;
+}
+.logo:after {
+  position: absolute;
+  content: url(../img/wheat1.png);
+  width: auto;
+  height: auto;
+  top: 6px;
+  left: 0;
+  // background: url(../img/wheat1.png) no-repeat;
+}
+.logo:before {
+  position: absolute;
+  content: url(../img/wheat2.png);
+  width: auto;
+  height: auto;
+  top: 6px;
+  right: 0;
+  // background: url(../img/wheat2.png) no-repeat;
+}
+.main-title {
+  padding-top: 170px;
+  margin: 0 auto;
+  max-width: 868px;
+  font-size: 80px;
+  font-family: 'Marck Script', cursive;
+  text-align: center;
+}
+.main-title h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 80px;
+  line-height: normal;
+  color: #fff;
+  text-shadow: 2px 1px #fff;
+  -webkit-text-stroke: 1px #000000;
+  display: inline;
+  font-weight: normal;
+}
+.main-button {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+.main-btn {
+  font-size: 21px;
+  width: 244px;
+  height: 56px;
+  margin: 0 20px;
+  transition: all 0.3s;
+}
+.main-btn:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+// .main-title p {
+//   font-family: 'Marck Script', cursive;
+// }
+
+
+
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.navbar {}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.nav-menu__item {
+  display: flex;
+  margin: 0px 15px;
+}
+
+.nav-menu__item a {
+  text-decoration: none;
+  color: #555555;
+}
+
+.nav-menu__item .active {
+  text-decoration: none;
+  color: #5363db;
+}
+
+.nav-menu__item_center {
+  display: block;
+}
+
+.logo {
+  padding: 0 150px;
+  margin: 0;
+  text-align: center;
+}
+
+.logo__link {
+  display: inline-block;
+}
+
+.logo__image {
+  display: block;
+}
+
+
+
+// навбар с маздой
+
+.header__logo img {
+  width:100%;
+}
+
+.header__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.header__info a{
+-webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align:center;
+}
+
+
+@import "media";
